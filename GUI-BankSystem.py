@@ -26,7 +26,7 @@ def home_return(master):
 def write(master,name,oc,pin):
 	
 	if( (is_number(name)) or (is_number(oc)==0) or (is_number(pin)==0)or name==""):
-		messagebox.showinfo("Error","Invalid Credentials\nPlease try again.")
+		messagebox.showinfo("Error","Invalid Credentials!\nPlease try again!")
 		master.destroy()
 		return 
 
